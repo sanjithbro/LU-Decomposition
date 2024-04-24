@@ -39,12 +39,9 @@ lu, piv = lu_factor(A)
 X = lu_solve((lu , piv),b)
 print(X)
 ```
-
 ## Output:
 ![Screenshot 2024-04-18 212451](https://github.com/sanjithbro/LU-Decomposition/assets/167451460/e075e51a-7acc-4145-be33-705a96c0da7b)
-
 ![Screenshot 2024-04-18 212640](https://github.com/sanjithbro/LU-Decomposition/assets/167451460/d93bf98e-ad24-4e48-99de-2864074533f7)
-
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
