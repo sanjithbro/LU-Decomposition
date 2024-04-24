@@ -19,13 +19,13 @@ Anaconda – Python 3.7 Installation / Moodle-Code Runner
 6.Print Array X as the solution
 ## Program:
 (i) To find the L and U matrix
-```
+```python
 ## Program to find the L and U matrix.
-Developed by: Kamalesh SV
-RegisterNumber: 22001133
+Developed by: R.Sanjith
+RegisterNumber: 212223230191
 
 from scipy.linalg import lu
-a=eval(input())
+a=np.array(eval(input()))
 P,L,U=lu(a)
 print(L)
 print(U)
@@ -34,20 +34,21 @@ print(U)
 
 Program to find the LU Decomposition of a matrix.
 ```
-Developed by: kamalesh sv
-RegisterNumber: 22001133
+Developed by: R.Sanjith
+RegisterNumber: 212223230191
 
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
-a=eval(input())
-b=eval(input())
+a=np.array(eval(input()))
+b=np.array(eval(input()))
 lu,piv=lu_factor(a)
 x=lu_solve((lu,piv),b)
 print(x)
 ```
 ## Output:
-![OUTPUT](./output4.png)
-![output](./output.png)
+![Screenshot 2024-04-18 212451](https://github.com/Kamal-XO/LU-Decomposition/assets/167451460/bbc35c7d-a60b-48e9-b70e-a64d931257f9)
+
+![Screenshot 2024-04-18 212640](https://github.com/Kamal-XO/LU-Decomposition/assets/167451460/b8b58bad-32af-4b6d-9ba5-9ba64b450c67)
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
